@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    position: relative;
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.top-header{
+    display: flex;
+    margin-right: -15px;
+    margin-left: -15px;
+    padding: 10px 0;
+}
+
+.top-header span:not(:last-child){
+    padding-right: 15px;
+}
+
+.top-header span{
+    font-size: 11px;
+    font-weight: 300;
+    text-transform: uppercase;
+    color: #000;
+}
+
+.col{
+    flex-basis: 0;
+    flex-grow: 1;
+    max-width: 100%;
+}
+
+.text-right{
+    text-align: right;
+}
+
+/* .triangle{
+    position: absolute;
+    margin: 0 auto;
+    text-align: center;
+    width: 0px;
+    height: 0px;
+    border-left: 150px solid transparent;
+    border-right: 150px solid transparent;
+    border-top: 50px solid #f00;
+} */
